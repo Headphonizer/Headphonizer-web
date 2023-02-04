@@ -1,0 +1,270 @@
+body {
+  background-color: rgb(155, 130, 238);
+  flex-direction : column;
+  justify-content : center ;
+  align-items : center ;
+  }
+
+.upper{
+  display:flex;
+  flex-direction: row;
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+}
+
+.logo-sector{
+  width:200px;
+  height:200px;
+
+}
+
+.introduction-sector{
+  flex:1;
+
+}
+
+.logo{
+  width: 190px;
+  height:190px;
+  border-color: blue;
+  border-style:groove;
+  border-width: 5px;
+}
+
+.introduction{
+  margin-top: 0px;
+  font-family: Itim;
+  font-size: 50px;
+  color:rgb(212, 206, 206);
+  text-align: center;
+  background-color:rgb(0,0,0);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display:block;
+}
+
+
+.main{
+  display:flex;
+  flex-direction: row;
+  margin-top:220px;
+}
+
+.buttons{
+  width:1100px;
+}
+
+.contact-link{
+  flex:1;
+}
+
+.Apple-button{
+  background-color: black;
+  color:rgb(212, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.527);
+  transition: 0.5s;
+  margin-top: 10px;
+  font-size: 50px;
+}
+.Apple-button:hover{
+  background-color: rgb(212, 206, 206);
+  color: black;
+ 
+}
+.Apple-button:active{
+  opacity: 0.5;
+}
+
+.Bang-button{
+  background-color: black;
+  color:rgb(212, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.527);
+  transition: 0.5s;
+  margin-top: 10px;
+  font-size: 50px;
+}
+.Bang-button:hover{
+  background-color: rgb(212, 206, 206);
+  color: black;
+ 
+}
+.Bang-button:active{
+  opacity: 0.5;
+}
+
+.Beats-button{
+  background-color: black;
+  color:rgb(212, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.527);
+  transition: 0.5s;
+  margin-top: 10px;
+  font-size: 50px;
+}
+.Beats-button:hover{
+  background-color: rgb(212, 206, 206);
+  color: black;
+ 
+}
+.Beats-button:active{
+  opacity: 0.5;
+}
+
+.Bose-button{
+  background-color: black;
+  color:rgb(212, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.527);
+  transition: 0.5s;
+  margin-top: 20px;
+  font-size: 50px;
+}
+.Bose-button:hover{
+  background-color: rgb(212, 206, 206);
+  color: black;
+ 
+}
+.Bose-button:active{
+  opacity: 0.5;
+}
+
+.Bowers-button{
+  background-color: black;
+  color:rgb(212, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.527);
+  transition: 0.5s;
+  margin-top: 20px;
+  font-size: 50px;
+}
+.Bowers-button:hover{
+  background-color: rgb(212, 206, 206);
+  color: black;
+ 
+}
+.Bowers-button:active{
+  opacity: 0.5;
+}
+
+.Focal-button{
+  background-color: black;
+  color:rgb(212, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.527);
+  transition: 0.5s;
+  margin-top: 20px;
+  font-size: 50px;
+}
+.Focal-button:hover{
+  background-color: rgb(212, 206, 206);
+  color: black;
+ 
+}
+.Focal-button:active{
+  opacity: 0.5;
+}
+
+.JBL-button{
+  background-color: black;
+  color:rgb(212, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.527);
+  transition: 0.5s;
+  margin-top: 20px;
+  font-size: 50px;
+}
+.JBL-button:hover{
+  background-color: rgb(212, 206, 206);
+  color: black;
+ 
+}
+.JBL-button:active{
+  opacity: 0.5;
+}
+
+.Sony-button{
+  background-color: black;
+  color:rgb(212, 206, 206);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(132, 132, 132, 0.527);
+  transition: 0.5s;
+  margin-top: 20px;
+  font-size: 50px;
+}
+.Sony-button:hover{
+  background-color: rgb(212, 206, 206);
+  color: black;
+ 
+}
+.Sony-button:active{
+  opacity: 0.5;
+}
+
+.contact-title{
+  font-size: 50px;
+  font-style: italic;
+  color: rgb(20, 6, 6);
+}
+
+.twitter-link{
+  width:100px;
+  border-color: blueviolet;
+  border-style: groove;
+  border-radius: 20px;
+}
+.twitter-link:hover{
+  opacity: 0.5;
+}
+
+.own-gmail{
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+
+
